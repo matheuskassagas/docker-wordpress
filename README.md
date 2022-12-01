@@ -15,4 +15,12 @@ localhost:8080
 $ docker volume inspect wordpress-tests_wordpress
 
 ```
+
 - Na inspecao pega o caminho e acesse como usuario root
+```
+$ sudo su
+
+# provavel path
+# cd /var/lib/docker/volumes/wordpress-tests_wordpress/_data
+
+```
