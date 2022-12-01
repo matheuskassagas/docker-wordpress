@@ -9,3 +9,10 @@ docker-compose up -d
 ```
 localhost:8080
 ```
+
+### Para acessar o volume 
+```bash
+$ docker volume inspect wordpress-tests_wordpress
+
+```
+- Na inspecao pega o caminho e acesse como usuario root
